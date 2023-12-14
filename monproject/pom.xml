@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.hajar</groupId>
+  <artifactId>monprojet</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <!-- Ajouter la section des dépendances -->
+  <dependencies>
+    <!-- Dépendance pour MySQL Connector/J -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.23</version> <!-- Utilisez la dernière version disponible -->
+    </dependency>
+    <!-- Autres dépendances peuvent être ajoutées ici -->
+  </dependencies>
+</project>
